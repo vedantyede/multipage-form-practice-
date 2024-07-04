@@ -16,10 +16,10 @@ const Page3 = () => {
 
   return (
     <div>
-      <h1>Page 2</h1>
+      <h1>Page 3</h1>
       <form onSubmit={handleSubmit(onSubmit)}>
-        <input type="text" placeholder="education" {...register("email")} />
-        <input type="text" placeholder="certificates" {...register("phone")} />
+        <input type="text" placeholder="education" {...register("education")} />
+        <input type="text" placeholder="certificates" {...register("certificates")} />
         <input type="submit" />
       </form>
     </div>
